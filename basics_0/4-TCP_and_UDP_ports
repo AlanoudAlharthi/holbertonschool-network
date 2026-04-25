@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-#The script shows active internet connection
-netstat -lp
+# Display listening ports with PID and program name
+
+sudo netstat -tulpen
