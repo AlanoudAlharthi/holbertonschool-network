@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-sudo netstat -lpn --inet --inet6 --unix
+#The script shows active internet connection
+netstat -lp
