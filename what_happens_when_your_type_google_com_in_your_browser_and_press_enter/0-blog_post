@@ -1,0 +1,16 @@
+What happens when you type https://www.google.com
+ in your browser and press Enter
+
+When you type https://www.google.com
+ in your browser and press Enter, several processes happen behind the scenes:
+
+DNS request is made to convert the domain name into an IP address.
+TCP/IP connection is established using a 3-way handshake.
+Firewall checks and filters the request for security.
+HTTPS/SSL handshake encrypts the connection.
+Load balancer distributes the request to available servers.
+Web server receives the request and processes it.
+Application server runs backend logic and prepares data.
+Database is queried if data is needed.
+Response is sent back to the browser.
+Browser renders the page (HTML, CSS, JavaScript).
